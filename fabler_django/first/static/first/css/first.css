@@ -1,0 +1,49 @@
+body {
+    background: #4D4861;
+}
+
+aside {
+    float: top;
+    background: #D5C7BC;
+    width: 100%;
+    padding: 0%;
+    height: 20%;
+    color: #454545;
+    border-bottom: 5px solid #4D4861;
+}
+aside img{
+    width: 150px;
+    float: left;
+}
+
+aside .logo{
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: 40px;
+}
+aside ul {list-style: none}
+
+aside ul table{
+    background: #D5C7BC;
+    text-decoration: none;
+    margin-left: 450px;
+    margin-top: 0px;
+    font-size: 25px;
+
+}
+aside ul table td{
+    color: #454545;
+    width: 5%;
+
+}
+aside ul a:hover{
+    color: #454545;
+    text-decoration: none;
+
+}
+aside ul a{
+    color: #454545;
+    text-decoration: none;
+}
