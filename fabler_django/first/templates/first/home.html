@@ -1,10 +1,18 @@
 {% extends 'first/layout.html' %}
-
+{% load static %}
 {% block title %}
 Main Page
 {% endblock %}
 
 {% block content %}
-<h1>Main Page</h1>
-<p>Main Page</p>
+<h1>Hey,</h1>
+<p1>Nice to meet you on that page!<br></p1>
+<p2>I'm Natalie<br></p2>
+<p3>I am studying software engineering at Peter the Great St. Petersburg Polytechnic Uni,<br></p3>
+<p4>I believe in UFO and in my heart there is a special place for cats and crazy ideas.<br></p4>
+<p5>According to listening statistics, my favorite artist on Spotify is Elvis Presley.<br></p5>
+<p6>This is actually my first site. The most popular question I get asked is <br></p6>
+<p7>"Did you do it all yourself?"<br></p7>
+<p8>-Yes, I did.</p8>
+<img src="{% static 'first/img/catsandalien.svg' %}" alt = "catsalien">
 {% endblock %}
