@@ -6,3 +6,9 @@ def index(request):
 
 def about(request):
     return render(request, 'first/about.html')
+
+def projects(request):
+    return render(request, 'first/projects.html')
+
+def fabler(request):
+    return render(request, 'first/fabler.html')
